@@ -1,0 +1,11 @@
+name: P
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hi
+
